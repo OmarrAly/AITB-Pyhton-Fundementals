@@ -1,5 +1,5 @@
 #1.1
-'''
+
 from cmath import pi
 from unicodedata import name
 
@@ -101,7 +101,7 @@ class Employee:
 
 emp = Employee(8,'omar' , 'aly' , 1000)
 emp.displayEmployeeInfo()
-'''
+
 #1.6
 
 class Account:
@@ -128,13 +128,13 @@ class Account:
     def setbalance(self , balance):
         self.balance = balance
     
-    def credit(self , balance , credit):
-        credit += balance
+    def credit(self , balance , amount):
+        amount += balance
         return balance
         
-    def debit(self , debit , balance):
-        if debit <= balance:
-           balance = balance - debit
+    def debit(self , amount , balance):
+        if amount <= balance:
+           balance = balance - amount
         else:
             print( "Amount exceeded balance")
         return balance
