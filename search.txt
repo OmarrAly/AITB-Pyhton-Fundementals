@@ -1,0 +1,9 @@
+1- Static ip is an ip address that doesnt change.
+
+2- Dynamic ip is an ip address that constantly changes.
+
+3- Private ip is an ip address that's reserved for internal use behind a router.
+
+4- Public ip  is an ip address that your home or business router receives from your ISP.
+
+5- http headers let the client and the server pass additional information with an HTTP request or response.
